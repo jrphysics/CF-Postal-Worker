@@ -1,0 +1,11 @@
+name = "cf-postal-worker"
+compatibility_date = "2023-01-01"
+send_email = [
+    {type = "send_email", name = "SEB"}
+]
+
+[vars]
+SENDER_ADDRESS = "client@hightechpython.com"
+SENDER_NAME = "Client"
+RECIPIENT_ADDRESS = "contact@hightechpython.com"
+ALLOWED_ORIGINS = "https://hightechpython.com"
